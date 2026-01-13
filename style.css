@@ -39,6 +39,8 @@ ul {
     gap: 20px;
 }
 
+
+
 .popular-item {
     background-color: #EFEFEF;
     border-radius: 10px;
@@ -48,20 +50,19 @@ ul {
     padding-right: 140px;
     display: flex;
     gap: 117px;
-    align-self: center;
+    align-items: center;
 }
 
 .popular-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 49px;
     color: #FF463A;
     padding-bottom: 10px;
-    font-family: 'Releveway', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .popular-text {
-    font-family: 'Releveway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .popular-link {
@@ -70,7 +71,7 @@ ul {
     padding: 15px 30px;
     border: 1px solid #000;
     border-radius: 5px;
-    font-family: 'Releveway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .ice-cream {
@@ -81,7 +82,6 @@ ul {
 
 .ice-cream-title {
     font-size: 48px;
-    font-family: 'Nunito', sans-serif;
     padding-bottom: 40px;
     color: #FF463A;
     font-weight: 700;
@@ -93,7 +93,7 @@ ul {
     padding-bottom: 68px;
     font-family: 'Raleway', sans-serif;
 }
- 
+
 .ice-cream-list {
     display: flex;
     flex-wrap: wrap;
@@ -164,10 +164,11 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+
 .footer-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+
 }
 
 .footer-title {
@@ -184,17 +185,18 @@ ul {
     font-family: 'Inter', sans-serif;
 }
 
-.hero{
+.hero {
     background-color: #FFE4CC;
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 57px;
 }
 
-.hero-subtitle{
+.hero-subtitle {
     font-size: 16px;
     color: #FF993A;
     margin-bottom: 20px;
@@ -205,18 +207,18 @@ ul {
     padding-right: 195px;
 }
 
-.hero-title{
+.hero-title {
     font-size: 48px;
     font-weight: 700;
     color: #FF463A;
     margin-bottom: 45px;
 }
 
-.hero-text{
+.hero-text {
     margin-bottom: 45px;
 }
 
-.hero-link{
+.hero-link {
     background-color: #FF463A;
     font-weight: 700;
     color: #FFFFFF;
@@ -228,7 +230,7 @@ ul {
     padding: 20px 0px;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     gap: 188px;
@@ -243,18 +245,19 @@ ul {
 
 }
 
-.header-list{
+.header-list {
     display: flex;
     gap: 65px;
 }
 
-.header-link{
+.header-link {
     font-family: 'Raleway', sans-serif;
     color: #000000;
 }
 
-.header-link:hover{
+.header-link:hover {
     color: #FF993A;
+    font-weight: 600;
 }
 
 .header-logo {
